@@ -12,7 +12,7 @@ if (!empty($_GET['s']) && is_numeric($_GET['s'])) {
             echo '<tr>';
             foreach ($data_row as $data_col) {
                 if ($data_col) echo '<td>@</td>';
-                else echo '<td>&nbsp;&nbsp;&nbsp;</td>';
+                else echo '<td>&nbsp;</td>';
             }
             echo '</tr>';
         }
